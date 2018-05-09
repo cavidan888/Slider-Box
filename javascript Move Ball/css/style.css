@@ -1,0 +1,52 @@
+body{
+
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.squares{
+
+	width:40px;
+	height:40px;
+	position: absolute;
+	transition: all 1s ease;
+}
+
+.first{
+
+	background:red;
+}
+
+.second{
+
+	background:blue;
+}
+
+.third{
+
+	background:orange;
+}
+
+.fourth{
+
+	background:yellow;
+}
+
+#btnContainer{
+
+	position: absolute;
+	left:40%;
+	top:20%;
+}
+
+#btnContainer>button{
+
+	border:none;
+	outline:none;
+	padding:15px 25px;
+	font-family:sans-serif;
+	font-size:15px;
+	background:orange;
+	border-radius: 5px;
+}
